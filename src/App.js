@@ -26,6 +26,13 @@ function App() {
     axios
       .get(
         `https://api.coingate.com/v2/rates/merchant/${leftСurrency}/${rightСurrency}`,
+        {
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers':
+              'Origin, Content-Type, X-Auth-Token',
+          },
+        },
       )
       .then(res => {
         setCourse(res.data);
@@ -37,7 +44,6 @@ function App() {
   }, [leftСurrency, rightСurrency]);
 
   const handleChange = (name, e) => {
-    console.log(e.target.value);
     switch (name) {
       case 'left':
         setLeftValue(Number(e.target.value));
