@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mine-currency-exchange/static/css/main.28d7d91e.css",
-    "main.js": "/mine-currency-exchange/static/js/main.43c690c9.js",
+    "main.js": "/mine-currency-exchange/static/js/main.8127c06e.js",
     "index.html": "/mine-currency-exchange/index.html",
     "main.28d7d91e.css.map": "/mine-currency-exchange/static/css/main.28d7d91e.css.map",
-    "main.43c690c9.js.map": "/mine-currency-exchange/static/js/main.43c690c9.js.map"
+    "main.8127c06e.js.map": "/mine-currency-exchange/static/js/main.8127c06e.js.map"
   },
   "entrypoints": [
     "static/css/main.28d7d91e.css",
-    "static/js/main.43c690c9.js"
+    "static/js/main.8127c06e.js"
   ]
 }
